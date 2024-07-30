@@ -18,6 +18,12 @@
     flex-wrap: wrap;
 }
 
+.cell img {
+    width: 52px;
+    height: 52px;
+    position: relative;
+}
+
 .cell {
     width: 64px;
     height: 64px;
@@ -28,7 +34,7 @@
 }
 
 .black {
-    background-color: #072a4f;
+    background-color: #143b63;
 
 }
 
