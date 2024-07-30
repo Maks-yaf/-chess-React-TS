@@ -31,8 +31,8 @@ export class Board {
 
     private addPawns() {
         for (let i = 0; i < 8; i++) {
-            new Pawn(Colors.BLACK, this.getCell(i, 3) )
-            new Pawn(Colors.WHITE, this.getCell(i, 5) )
+            new Pawn(Colors.BLACK, this.getCell(i, 1) )
+            new Pawn(Colors.WHITE, this.getCell(i, 6) )
         }
     }
 
